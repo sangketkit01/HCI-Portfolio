@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+<div class="navigator">
+    <button class="HomeButton" onclick="buttonOnClick(this,'index','Assignment')">Home</button>
+    <button class="Lab" onclick="buttonOnClick(this,'Lab','Assingment')">Lab</button>
+    <button class="Assignment" onclick="buttonOnClick(this,'Assignment','Assignment')">Assignment</button>
+    <button class="Project" onclick="buttonOnClick(this,'Project','Assignment')">Project</button>
+    <button class="about" onclick="buttonOnClick(this,'about','Assignment')"><u>About me</u></button>
+</div>
+    <div class="content">
+        <p class="Hello">Hello,I'm</p>
+        <p class="Name">New Thiraphat</p>
+        <br>
+        <p class="sub-header">IT First Year Student</p>
+        <br>
+    </div>
+    <label  class="sub-content">ผมเป็นคนที่ชื่นชอบคอมพิวเตอร์และคณิตศาสตร์เป็นอย่างมาก เป็นเด็กติดเกมที่ก็ศึกษาเรื่องคอม ผมได้ลองเขียนโปรแกรมครั้งแรกๆเลยก็ ม.4-5 แต่ก็ไม่ได้เข้าใจมากนักแล้วก็ล้มเลิกไป จนได้กลับมาเรียนอีกครั้งในระดับมหาวิทยาลัยและผมหลงรักการเขียนโปรแกรมเป็นอย่างมาก ผมได้เลือกสาขาเรียนที่เหมาะกับตัวผมแล้ว</label>
+    <label for="" class="Fav-Header">Favorite Subject & Programming Language : </label>
+    <br>
+    <label for="" class="Fav-Content">Calculus , Java , Go , Python , NodeJS , English</label>
+    <br>
+    <label for="" class="Contact-Header">Contact : </label>
+    <br>
+    <div class="Contact-Content">
+        <button class="Facebook" onmouseenter="enterContact(this)" onmouseleave="leaveContact(this)">
+            <a href="https://www.facebook.com/thiraphat.sangketkit.27/" target="_blank">
+                <img src="/ICON/Facebook.png" alt="">
+            </a>
+        </button>
+         <button class="IG" onmouseenter="enterContact(this)" onmouseleave="leaveContact(this)">
+            <a href="https://www.instagram.com/thirough5/" target="_blank">
+            <img src="/ICON/Instagram Circle.png" alt="">
+    </a>
+</button>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

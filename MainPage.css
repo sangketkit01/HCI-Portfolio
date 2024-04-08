@@ -1,0 +1,99 @@
+body{
+    background: black;
+    color: black;
+    background-image: url("/Picture/background6.jpg");
+    background-size:100%;
+    background-color: white;
+}
+.Message {
+    /* padding: 0px 400px; */
+    width: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    font-weight: 600;
+}
+.Message,.img{
+    margin-bottom: -120px;
+}
+.img{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 150px 400px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+.moreButton{
+    padding: 10px;
+    border: 10px;
+    border-radius: 20px;
+    border-color:black;
+    border-width: 3px;
+    border-style: solid;
+    background:rgba(255, 255, 255, 0.2);
+    color:black;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.head,.Name,.ID {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+.ID{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head {
+    font-size: 65px;
+}
+.Name{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1,h2,h3 {
+    margin: 0;
+}
+.navigator {
+    display: flex;
+    margin-top: 10px;
+    background-color: rgba(239, 239, 239);
+    align-items: flex-end;
+    margin-left: 900px;
+}
+
+.navigator button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+}
+
+.navigator button.clicked {
+    text-decoration: underline;
+    color: white;
+    text-decoration-color: white;
+}
+
+
+
