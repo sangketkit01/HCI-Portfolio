@@ -76,6 +76,9 @@ body label {
     padding: 10px 10px 10px 10px;
     margin: 10px;
 }
+.navigator button:hover {
+    text-decoration: underline;
+}
 .more-picture img {
     width: 400px;
     height: 300px;

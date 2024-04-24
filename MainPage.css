@@ -76,6 +76,13 @@ h1,h2,h3 {
     align-items: flex-end;
     margin-left: 900px;
 }
+.navigator button:hover{
+    text-decoration: underline;
+}
+.moreButton:hover{
+    background-color: rgba(239, 239, 239, 0.6);
+    color: gray;
+}
 
 .navigator button {
     border: none;

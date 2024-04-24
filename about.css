@@ -18,6 +18,13 @@
     margin: 10px;
 }
 
+.navigator button:hover {
+    text-decoration: underline;
+}
+.Contact-Content button:hover{
+    background-color: rgb(251, 70, 118);
+}
+
 body {
     background: white;
     color: white;
@@ -109,7 +116,7 @@ body p {
     text-align: center;
     align-items: center;
     flex-direction: row;
-    margin-left: -170px;
+    margin-left: -80px;
 }
 .Contact-Content button{
     margin: 5px;
@@ -126,6 +133,10 @@ body p {
     height: auto;
 }
 .IG img{
+    width: 45%;
+    height: auto;
+}
+.Github img{
     width: 45%;
     height: auto;
 }

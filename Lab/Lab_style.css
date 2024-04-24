@@ -89,7 +89,10 @@ body label {
     font-size: 20px;
     padding: 10px 10px 10px 10px;
     margin: 10px;
-}.more-picture img {
+}.navigator button:hover {
+    text-decoration: underline;
+}
+.more-picture img {
     width: 400px;
     height: 300px;
     display: flex;

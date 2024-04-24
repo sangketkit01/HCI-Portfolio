@@ -18,6 +18,10 @@
     margin: 10px;
 }
 
+.navigator button:hover {
+    text-decoration: underline;
+}
+
 body {
     background: rgba(239, 239, 239);
     color: white;
@@ -87,5 +91,8 @@ body {
     border: solid;
     border-radius: 5px;
     border-width: 2px;
+}
+.learnMoreButton:hover {
+    background-color: rgba(224, 224, 224, 0.6);
 }
 
